@@ -6,7 +6,7 @@ android {
 
 
     defaultConfig {
-        applicationId "simplelauncher.arnab.ch.aidlserver"
+        applicationId "com.dima.sample.aidl.server"
         minSdkVersion 18
         targetSdkVersion 26
         versionCode 1

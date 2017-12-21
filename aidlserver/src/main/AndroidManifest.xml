@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="simplelauncher.arnab.ch.aidlserver">
+    package="com.dima.sample.aidl.server">
 
     <application
         android:allowBackup="true"
@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.dima.sample.aidl.server.MainActivity">
+        <activity android:name="MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,11 +18,11 @@
         </activity>
 
         <service
-            android:name="com.dima.sample.aidl.server.MyService"
+            android:name="MyService"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
-                <action android:name="simplelauncher.arnab.ch.aidlserver.STRING_GEN" />
+                <action android:name="com.dima.sample.aidl.server.STRING_GEN" />
             </intent-filter>
         </service>
 

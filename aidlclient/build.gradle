@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "simplelauncher.arnab.ch.aidlexample"
+        applicationId "com.dima.sample.aidl.client"
         minSdkVersion 18
         targetSdkVersion 26
         versionCode 1

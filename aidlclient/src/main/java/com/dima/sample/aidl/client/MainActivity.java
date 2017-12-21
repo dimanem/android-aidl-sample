@@ -16,8 +16,6 @@ import com.dima.sample.aidl.IStringGenerator;
 
 import java.util.List;
 
-import simplelauncher.arnab.ch.aidlexample.R;
-
 public class MainActivity extends AppCompatActivity {
 
     private IStringGenerator stringGen;
@@ -41,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Bind to service
-        Intent intent = createExplicitFromImplicitIntent(this, new Intent("simplelauncher.arnab.ch.aidlserver.STRING_GEN"));
+        Intent intent = createExplicitFromImplicitIntent(this, new Intent("com.dima.sample.aidl.server.STRING_GEN"));
         bindService(intent, connection, BIND_AUTO_CREATE);
     }
 

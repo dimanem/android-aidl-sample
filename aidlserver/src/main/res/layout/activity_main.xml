@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="simplelauncher.arnab.ch.aidlserver.com.dima.sample.aidl.server.MainActivity">
+    tools:context="com.dima.sample.aidl.server.MainActivity">
 
     <TextView
         android:layout_width="wrap_content"

@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">AIDLExample</string>
+    <string name="app_name">AIDLClient</string>
     <string name="generate_string">Generate String</string>
 </resources>
